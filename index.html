@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hajra Bibi - Computer Engineer & AI/ML Expert</title>
+    <meta name="description" content="Hajra Bibi's professional portfolio showcasing expertise in Computer Engineering, AI/ML, and innovative technology solutions.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Magnetic Cursor -->
+    <div class="magnetic-cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-outline"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand gradient-text fw-bold" href="#home">Hajra Bibi</a>
+            
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon-custom">
+                    <i class="fas fa-bars text-white"></i>
+                </span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-gradient ms-2" onclick="downloadPortfolio()">
+                            <i class="fas fa-download me-2"></i>Download
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="hero-content" data-aos="fade-up">
+                        <h1 class="hero-title mb-4">
+                            Hi, I'm <span class="gradient-text typewriter" data-text="Hajra Bibi"></span>
+                        </h1>
+                        <p class="hero-subtitle mb-4" data-aos="fade-up" data-aos-delay="200">
+                            Computer Engineer specializing in AI/ML & Full-Stack Development
+                        </p>
+                        <div class="hero-description mb-5" data-aos="fade-up" data-aos-delay="400">
+                            <p class="lead">
+                                Passionate about creating innovative technology solutions with expertise in 
+                                artificial intelligence, machine learning, and modern web development.
+                            </p>
+                        </div>
+                        <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+                            <a href="#projects" class="btn btn-gradient me-3 magnetic-element">
+                                <i class="fas fa-rocket me-2"></i>View My Work
+                            </a>
+                            <a href="#contact" class="btn btn-outline-light magnetic-element">
+                                <i class="fas fa-envelope me-2"></i>Get In Touch
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Floating Elements -->
+        <div class="floating-elements">
+            <div class="floating-element" style="top: 20%; left: 10%;">
+                <i class="fas fa-brain"></i>
+            </div>
+            <div class="floating-element" style="top: 60%; right: 15%;">
+                <i class="fas fa-code"></i>
+            </div>
+            <div class="floating-element" style="bottom: 30%; left: 20%;">
+                <i class="fas fa-robot"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">
+                        Passionate Computer Engineer with expertise in AI/ML and modern technologies
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4" data-aos="fade-right">
+                    <div class="floating-card about-card">
+                        <div class="text-center">
+                            <div class="profile-avatar mb-4">
+                                <i class="fas fa-user"></i>
+                                <div class="avatar-particles">
+                                    <div class="particle"></div>
+                                    <div class="particle"></div>
+                                    <div class="particle"></div>
+                                </div>
+                            </div>
+                            <h3 class="mb-3">Hajra Bibi</h3>
+                            <p class="text-primary mb-4 fw-medium">Computer Engineer & AI/ML Expert</p>
+                            
+                            <div class="row text-center mb-4">
+                                <div class="col-6">
+                                    <div class="info-card">
+                                        <i class="fas fa-map-marker-alt text-primary mb-2"></i>
+                                        <small class="text-muted">Islamabad, PK</small>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="info-card">
+                                        <i class="fas fa-calendar text-secondary mb-2"></i>
+                                        <small class="text-muted">2025 Graduate</small>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="social-links">
+                                <a href="https://linkedin.com/in/hajra-bibi" class="social-btn" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="mailto:hajra.bibi@example.com" class="social-btn">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                                <a href="https://github.com/hajra-bibi" class="social-btn" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-content">
+                        <h4 class="mb-4">My Journey</h4>
+                        <p class="mb-4">
+                            I am a dedicated Computer Engineer with a strong foundation in artificial intelligence, 
+                            machine learning, and full-stack development. My academic journey at IST University 
+                            Islamabad has equipped me with comprehensive knowledge in modern technologies and 
+                            innovative problem-solving approaches.
+                        </p>
+                        
+                        <div class="highlight-stats row">
+                            <div class="col-md-6 mb-3">
+                                <div class="stat-card">
+                                    <h5 class="text-primary mb-1">4+</h5>
+                                    <small class="text-muted">Major Projects</small>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="stat-card">
+                                    <h5 class="text-secondary mb-1">15+</h5>
+                                    <small class="text-muted">Technologies</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p class="mb-4">
+                            My expertise spans across various domains including computer vision, natural language 
+                            processing, web development, and database management. I am passionate about leveraging 
+                            technology to create solutions that make a meaningful impact.
+                        </p>
+                        
+                        <a href="#projects" class="btn btn-gradient">
+                            <i class="fas fa-arrow-right me-2"></i>Explore My Work
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-dark-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <p class="section-subtitle">
+                        Comprehensive expertise across multiple technology domains
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Skill Orbit Container -->
+            <div class="skills-orbit-container" data-aos="zoom-in">
+                <div class="skills-orbit">
+                    <div class="orbit-center">
+                        <i class="fas fa-brain"></i>
+                        <span>AI/ML</span>
+                    </div>
+                    
+                    <!-- Orbiting Skills -->
+                    <div class="orbit-item" data-skill="Python" style="--delay: 0s;">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="orbit-item" data-skill="JavaScript" style="--delay: 0.5s;">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="orbit-item" data-skill="React" style="--delay: 1s;">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="orbit-item" data-skill="Node.js" style="--delay: 1.5s;">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <div class="orbit-item" data-skill="Database" style="--delay: 2s;">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="orbit-item" data-skill="Git" style="--delay: 2.5s;">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Skills Grid -->
+            <div class="row mt-5">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-category floating-card">
+                        <div class="skill-icon mb-3">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h5>AI & Machine Learning</h5>
+                        <div class="skill-items">
+                            <span class="skill-tag">Deep Learning</span>
+                            <span class="skill-tag">Computer Vision</span>
+                            <span class="skill-tag">NLP</span>
+                            <span class="skill-tag">TensorFlow</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-category floating-card">
+                        <div class="skill-icon mb-3">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h5>Programming</h5>
+                        <div class="skill-items">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">Java</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-category floating-card">
+                        <div class="skill-icon mb-3">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h5>Web Development</h5>
+                        <div class="skill-items">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-category floating-card">
+                        <div class="skill-icon mb-3">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h5>Database & Tools</h5>
+                        <div class="skill-items">
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Arduino</span>
+                            <span class="skill-tag">DBMS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">
+                        Showcasing innovative solutions and technical expertise
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card floating-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=300" alt="Target Detection">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <button class="btn btn-sm btn-light me-2">
+                                        <i class="fab fa-github"></i>
+                                    </button>
+                                    <button class="btn btn-sm btn-primary">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="featured-badge">
+                                <i class="fas fa-star"></i> Featured
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5 class="project-title">Real-Time Target Detection & Tracking</h5>
+                            <p class="project-description">
+                                Final Year Project utilizing drone technology for intelligent target detection 
+                                and tracking using computer vision and machine learning algorithms.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">OpenCV</span>
+                                <span class="tech-tag">Deep Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card floating-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=300" alt="Parking System">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <button class="btn btn-sm btn-light me-2">
+                                        <i class="fab fa-github"></i>
+                                    </button>
+                                    <button class="btn btn-sm btn-primary">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="featured-badge">
+                                <i class="fas fa-star"></i> Featured
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5 class="project-title">Car Parking Management System</h5>
+                            <p class="project-description">
+                                Comprehensive database management system for efficient car parking operations 
+                                with real-time availability tracking and automated billing.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">DBMS</span>
+                                <span class="tech-tag">SQL</span>
+                                <span class="tech-tag">System Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card floating-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=300" alt="RFID System">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <button class="btn btn-sm btn-light me-2">
+                                        <i class="fab fa-github"></i>
+                                    </button>
+                                    <button class="btn btn-sm btn-primary">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5 class="project-title">RFID Toll Tax System</h5>
+                            <p class="project-description">
+                                Automated toll collection system using RFID technology and Arduino microcontrollers 
+                                for seamless vehicle identification and payment processing.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Arduino</span>
+                                <span class="tech-tag">RFID</span>
+                                <span class="tech-tag">IoT</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-card floating-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=300" alt="Digital Clock">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <button class="btn btn-sm btn-light me-2">
+                                        <i class="fab fa-github"></i>
+                                    </button>
+                                    <button class="btn btn-sm btn-primary">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5 class="project-title">Digital Clock Using Arduino</h5>
+                            <p class="project-description">
+                                Precision digital clock implementation using Arduino microcontroller and Real-Time 
+                                Clock (RTC) module with LCD display and alarm functionality.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Arduino</span>
+                                <span class="tech-tag">RTC</span>
+                                <span class="tech-tag">Electronics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-5 bg-dark-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Education & Experience</h2>
+                    <p class="section-subtitle">
+                        Academic journey and professional development
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="timeline">
+                        <div class="timeline-item" data-aos="fade-right">
+                            <div class="timeline-marker">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="timeline-content floating-card">
+                                <div class="timeline-header">
+                                    <h5>Bachelor of Science in Computer Engineering</h5>
+                                    <span class="timeline-date">2021 - 2025</span>
+                                </div>
+                                <h6 class="text-primary">IST University Islamabad</h6>
+                                <p>Comprehensive study in computer engineering with specialization in AI/ML, software development, and system design. Maintained strong academic performance while developing practical skills through various projects.</p>
+                                <div class="achievement-tags">
+                                    <span class="achievement-tag">Final Year Project</span>
+                                    <span class="achievement-tag">AI/ML Specialization</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item" data-aos="fade-left">
+                            <div class="timeline-marker">
+                                <i class="fas fa-school"></i>
+                            </div>
+                            <div class="timeline-content floating-card">
+                                <div class="timeline-header">
+                                    <h5>Intermediate in Computer Science</h5>
+                                    <span class="timeline-date">2019 - 2021</span>
+                                </div>
+                                <h6 class="text-primary">Government Girls Higher Secondary School Kahuta</h6>
+                                <p>Strong foundation in mathematics, physics, and computer science. Developed fundamental programming skills and logical thinking abilities that formed the basis for advanced studies.</p>
+                                <div class="achievement-tags">
+                                    <span class="achievement-tag">Computer Science</span>
+                                    <span class="achievement-tag">Mathematics</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item" data-aos="fade-right">
+                            <div class="timeline-marker">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="timeline-content floating-card">
+                                <div class="timeline-header">
+                                    <h5>Secondary School Certificate</h5>
+                                    <span class="timeline-date">2017 - 2019</span>
+                                </div>
+                                <h6 class="text-primary">Government Girls School Kahuta</h6>
+                                <p>Completed O-levels with excellent grades, demonstrating strong analytical and problem-solving skills. Built a solid foundation in sciences and mathematics.</p>
+                                <div class="achievement-tags">
+                                    <span class="achievement-tag">O-Levels</span>
+                                    <span class="achievement-tag">Science Stream</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">
+                        Let's discuss opportunities and collaborations
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-form floating-card" data-aos="zoom-in">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control glass-input" id="name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control glass-input" id="email" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" class="form-control glass-input" id="subject" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control glass-input" id="message" rows="5" required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-gradient magnetic-element">
+                                    <i class="fas fa-paper-plane me-2"></i>Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 border-top border-secondary">
+        <div class="container">
+            <div class="text-center" data-aos="fade-up">
+                <h4 class="gradient-text mb-3">Hajra Bibi</h4>
+                <p class="text-muted mb-4">Computer Engineer & AI/ML Expert</p>
+                
+                <div class="social-links mb-4">
+                    <a href="https://linkedin.com/in/hajra-bibi" class="social-btn me-3" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:hajra.bibi@example.com" class="social-btn me-3">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/hajra-bibi" class="social-btn" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                
+                <div class="mb-4">
+                    <button class="btn btn-gradient" onclick="downloadPortfolio()">
+                        <i class="fas fa-download me-2"></i>Download Portfolio
+                    </button>
+                </div>
+                
+                <p class="text-muted small">
+                    © 2025 Hajra Bibi. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
